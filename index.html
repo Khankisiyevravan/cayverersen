@@ -26,19 +26,17 @@
         <div class="boxes_header">
           <i class="fa-light fa-mobile"></i>
           <div id="numbers_time">
-            <a
-              href="#"
-              class="number_tell_header"
-              onclick="copyText('+994 50 333 51 81')"
-              >+994 50 333 51 81</a
+            <a href="tel:+994 70 550 34 34" class="number_tell_header"
+              >+994 70 550 34 34</a
             >
             <p>9:00 - 23:00</p>
           </div>
         </div>
-        <div id="center_header">
-          <div id="img_header">
+        <div id="center_header" style="height: 100%">
+          <div id="img_header" style="height: 100%">
             <img
-              src="https://demo-storage.com/pm/wp/vincent/wp-content/themes/vincent/img/logo.png"
+              style="object-fit: contain; height: 100%"
+              src="./front/assets/imgs/logoo.png"
               alt=""
             />
           </div>
@@ -47,11 +45,8 @@
           <i class="fa-light fa-mobile"></i>
           <div id="numbers_time">
             <span>
-              <a
-                href="#"
-                class="number_tell_header"
-                onclick="copyText('+994 50 333 51 81')"
-                >+994 50 333 51 81</a
+              <a href="tel:+994 70 550 34 34" class="number_tell_header"
+                >+994 70 550 34 34</a
               >
             </span>
             <p>9:00 - 23:00</p>
@@ -105,47 +100,86 @@
         <div class="container">
           <h1>Bizim Menyumuz</h1>
           <div class="menyu_main">
-            <div class="ds-flex">
-              <h3>
-                <p class="category" data-value="sorbalar" href="" id="burger_click"> Şorbalar </p>
-              </h3>
-              <h3>
-                <p class="category" data-value="desertler" href="" id="desert_click"> Desertlər </p>
-              </h3>
-              <h3>
-                <p class="category" data-value="serin_icki" href="" id="icki_click"> Sərin Ickilər </p>
-              </h3>
-            </div>
-            <div class="ds-flex">
-              <h3>
-                <p class="category" data-value="alkollu_icki" href="" id="_click"> Alkoqollu İckilər </p>
-              </h3>
-              <h3>
-                <p class="category" data-value="caylar" href="" id="_click"> Çaylar </p>
-              </h3>
-              <h3>
-                <p class="category" data-value="cerezler" href="" id="_click"> Çərəzlər </p>
-              </h3>
-            </div>
-            <div class="ds-flex">
-              <h3>
-                <p class="category" data-value="esas_yemek" href="" id="_click"> Əsas Yeməklər </p>
-              </h3>
-              <h3>
-                <p class="category"  data-value="fast_food" href="" id="_click"> Fast Food </p>
-              </h3>
-              <h3>
-                <p class="category" data-value="salatlar" href="" id="_click"> Salatdar </p>
-              </h3>
-            </div>
-            <div class="ds-flex">
-              <h3>
-                <p class="category" data-value="qarnirler" href="" id="_click"> Qarnirlər </p>
-              </h3>
-              <h3>
-                <p class="category" data-value="soyuq_qelyanalti" href="" id="qelyanalti_click"> Soyuq Qəlyanaltı </p>
-              </h3>
-            </div>
+            <h3>
+              <p
+                class="category"
+                data-value="sorbalar"
+                href=""
+                id="burger_click"
+              >
+                Şorbalar
+              </p>
+            </h3>
+            <h3>
+              <p
+                class="category"
+                data-value="desertler"
+                href=""
+                id="desert_click"
+              >
+                Desertlər
+              </p>
+            </h3>
+            <h3>
+              <p
+                class="category"
+                data-value="serin_icki"
+                href=""
+                id="icki_click"
+              >
+                Sərin Ickilər
+              </p>
+            </h3>
+            <h3>
+              <p class="category" data-value="alkollu_icki" href="" id="_click">
+                Alkoqollu İckilər
+              </p>
+            </h3>
+            <h3>
+              <p class="category" data-value="caylar" href="" id="_click">
+                Çaylar
+              </p>
+            </h3>
+            <h3>
+              <p class="category" data-value="cerezler" href="" id="_click">
+                Çərəzlər
+              </p>
+            </h3>
+            <h3>
+              <p class="category" data-value="esas_yemek" href="" id="_click">
+                Əsas Yeməklər
+              </p>
+            </h3>
+            <h3>
+              <p class="category" data-value="fast_food" href="" id="_click">
+                Fast Food
+              </p>
+            </h3>
+            <h3>
+              <p class="category" data-value="salatlar" href="" id="_click">
+                Salatdar
+              </p>
+            </h3>
+            <h3>
+              <p class="category" data-value="qarnirler" href="" id="_click">
+                Qarnirlər
+              </p>
+            </h3>
+            <h3>
+              <p
+                class="category"
+                data-value="soyuq_qelyanalti"
+                href=""
+                id="qelyanalti_click"
+              >
+                Soyuq Qəlyanaltı
+              </p>
+            </h3>
+            <h3>
+              <p class="category" data-value="qelyanlar" href="" id="qelyanlar">
+                Qəlyanlar
+              </p>
+            </h3>
           </div>
           <div id="menu" class="burger_menyu"></div>
         </div>
@@ -153,20 +187,20 @@
     </main>
     <footer>
       <div class="container">
-        <div id="footer_img">
+        <div id="footer_img" style="width: 100%; max-width: 400px;">
           <img
-            src="https://demo-storage.com/pm/wp/vincent/wp-content/themes/vincent/img/logo_footer.png"
+          style="width: 100%; object-fit: contain;"
+            src="./front/assets/imgs/logoo.png"
             alt=""
           />
         </div>
         <div id="footer_text">
           <span>
             <a
-              href="#"
+              href="tel:+994 70 550 34 34"
               class="number_tell_footer"
-              onclick="copyText('+994 50 333 51 81')"
             >
-              +994 50 333 51 81
+              +994 70 550 34 34
             </a>
           </span>
           <p>9:00 - 23:00</p>

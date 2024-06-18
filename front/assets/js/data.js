@@ -96,3 +96,5 @@ let categories = document.querySelectorAll(".category");
     }
   });
 });
+
+
